@@ -71,6 +71,9 @@ int readUSensor(int pin)
 int readSteering(int pin)
 {
 //.9016*pow(analogRead(STEERBOX), 0.8139);
+/** Max Left = 180 */
+/** Max Right = 0 */
+/** Straight forward = 90 */
 /** These are called magic numbers */
 /** Written by Derek and Alex */
 /** Decomposed by Joe */
